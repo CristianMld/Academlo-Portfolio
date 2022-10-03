@@ -1349,6 +1349,7 @@ nav a {
   
   .portfolio-imgs {
     display: flex;
+    justify-content: center;
     height: 30%;
   }
 }
