@@ -33,7 +33,6 @@ html {
 }
 
 /*header starts here*/
-
 header {
   display: flex;
   position: relative;
@@ -207,7 +206,6 @@ nav a {
 }
 
 /*main starts here*/
-
 .about-section {
   display: flex;
   flex-direction: column;
@@ -333,7 +331,7 @@ nav a {
   }
 
   .about-title h2 {
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 50px;
   }
   
@@ -384,7 +382,7 @@ nav a {
   }
   
   .uvm h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   
   .uvm p {
@@ -408,7 +406,7 @@ nav a {
   }
   
   .academlo h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .academlo p {
@@ -417,7 +415,6 @@ nav a {
 }
 
 /*experience section starts here */
-
 .experience {
   position: relative;
   display: flex;
@@ -516,7 +513,7 @@ nav a {
 
 @media (max-width: 480px) {
   .experience-title h2 {
-    font-size: 45px;
+    font-size: 40px;
     padding-top: 50px;
   }
   
@@ -543,11 +540,11 @@ nav a {
   }
   
   .amazon-description h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .amazon-description h4 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .amazon-description p {
@@ -555,7 +552,7 @@ nav a {
   }
   
   .amazon-years h3 {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     margin-top: 40px;
   }
@@ -574,11 +571,11 @@ nav a {
   }
   
   .airbnb-description h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
   
   .airbnb-description h4 {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .airbnb-description p {
@@ -586,7 +583,7 @@ nav a {
   }
 
   .airbnb-years h3 {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 40px;
     text-align: center;
   }
@@ -605,11 +602,11 @@ nav a {
   }
   
   .google-description h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .google-description h4 {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .google-description p {
@@ -617,15 +614,13 @@ nav a {
   }
   
   .google-years h3 {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 40px;
     text-align: center;
   }
 }
 
-
 /* skills section starts here */
-
 .skills {
   display: flex;
   position: relative;
@@ -794,7 +789,7 @@ nav a {
   }
   
   .skills-title h2 {
-    font-size: 45px;
+    font-size: 40px;
     padding-top: 50px;
   }
   
@@ -811,13 +806,13 @@ nav a {
   .mobile-app-design h1 {
     display: flex;
     width: 10%;
-    font-size: 50px;
+    font-size: 40px;
     color: var(--gold-color);
   }
   
   .mobile-app-design h2 {
     display: flex;
-    font-size: 20px;
+    font-size: 16px;
     color: var(--light-grey-color);
   }
 
@@ -834,13 +829,13 @@ nav a {
   .web-design h1 {
     display: flex;
     width: 10%;
-    font-size: 50px;
+    font-size: 40px;
     color: var(--gold-color);
   }
   
   .web-design h2 {
     display: flex;
-    font-size: 20px;
+    font-size: 16px;
     color: var(--light-grey-color);
   }
   
@@ -857,13 +852,13 @@ nav a {
   .motion-design h1 {
     display: flex;
     width: 10%;
-    font-size: 50px;
+    font-size: 40px;
     color: var(--gold-color); 
   }
   
   .motion-design h2 {
     display: flex;
-    font-size: 20px;
+    font-size: 16px;
     color: var(--light-grey-color);
   }
   
@@ -880,13 +875,13 @@ nav a {
   .system-design h1 {
     display: flex;
     width: 10%;
-    font-size: 50px;
+    font-size: 40px;
     color: var(--gold-color);
   }
   
   .system-design h2 {
     display: flex;
-    font-size: 20px;
+    font-size: 16px;
     color: var(--light-grey-color);
   }
   
@@ -903,19 +898,18 @@ nav a {
   .project-managment h1 {
     display: flex;
     width: 10%;
-    font-size: 50px;
+    font-size: 40px;
     color: var(--gold-color);
   }
   
   .project-managment h2 {
     display: flex;
-    font-size: 20px;
+    font-size: 16px;
     color: var(--light-grey-color);
   }
 }
 
 /* portfolio section starts here */
-
 .portfolio {
   display: flex;
   flex-direction: column;
@@ -1046,7 +1040,7 @@ nav a {
   }
 
   .portfolio-title-mobile h2 {
-    font-size: 45px;
+    font-size: 40px;
     padding: 50px;
   }
 
@@ -1062,9 +1056,7 @@ nav a {
   }
 }
 
-
 /*footer starts here*/
-
 footer {
   display: flex;
   flex-direction: column;
@@ -1102,14 +1094,12 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  
   padding-left: 22%;
 }
 
 .number img {
   display: flex;
   width: 14%;
-  
 }
 
 .email {
@@ -1125,7 +1115,6 @@ footer {
 .email img {
   display: flex;
   width: 18%;
-  
 }
 
 .made-with-love-in-academlo {
