@@ -521,14 +521,15 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 100%;
+    align-items: center;
+    width: 80%;
     height: 80%;
   }
   
   .amazon {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 10px;
+    width: 100%;
     gap: 30px;
   }
   
@@ -554,13 +555,17 @@ nav a {
   .amazon-years h3 {
     font-size: 14px;
     text-align: center;
-    margin-top: 40px;
+  }
+
+  .amazon img {
+    display: flex;
+    width: 80%;
   }
   
   .airbnb {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 10px;
+    width: 100%;
     gap: 30px;
   }
   
@@ -584,14 +589,18 @@ nav a {
 
   .airbnb-years h3 {
     font-size: 14px;
-    margin-top: 40px;
     text-align: center;
+  }
+
+  .airbnb img {
+    display: flex;
+    width: 75%;
   }
   
   .google {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 10px;
+    width: 100%;
     gap: 30px;
   }
   
@@ -615,9 +624,14 @@ nav a {
   
   .google-years h3 {
     font-size: 14px;
-    margin-top: 40px;
     text-align: center;
   }
+
+  .google img {
+    display: flex;
+    width: 80%;
+  }
+
 }
 
 /* skills section starts here */
@@ -1178,7 +1192,15 @@ footer {
   }
 
   .mobile-number img {
-    width: 20%;
+    width: 18%;
+  }
+
+  .mobile-number h3 {
+    font-size: 16px;
+  }
+
+  .mobile-number p {
+    font-size: 16px;
   }
 
   .mobile-email {
@@ -1192,7 +1214,15 @@ footer {
   }
 
   .mobile-email img {
-    width: 20%;
+    width: 18%;
+  }
+
+  .mobile-email h3 {
+    font-size: 16px;
+  }
+
+  .mobile-email p {
+    font-size: 16px;
   }
 
   .made-with-love-in-academlo-mobile {
@@ -1200,5 +1230,9 @@ footer {
     justify-content: center;
     align-items: center;
     height: 15%;
+  }
+
+  .made-with-love-in-academlo-mobile h3 {
+    font-size: 14px;
   }
 }
