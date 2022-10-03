@@ -364,6 +364,12 @@ nav a {
   }
 }
 
+@media (max-width: 950px) {
+  .about-description p {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 480px) {
   .first-section {
     display: flex;
@@ -683,6 +689,44 @@ nav a {
 
   .google img {
     width: 40%;
+  }
+}
+
+@media (max-width: 950px) {
+  .amazon-description {
+    gap: 3px;
+  }
+  
+  .amazon-description h3 {
+    font-size: 16px;
+  }
+
+  .amazon-description h4 {
+    font-size: 14px;
+  }
+
+  .airbnb-description {
+    gap: 3px;
+  }
+
+  .airbnb-description h3 {
+    font-size: 16px;
+  }
+  
+  .airbnb h4 {
+    font-size: 14px;
+  }
+
+  .google-description {
+    gap: 3px;
+  }
+  
+  .google-description h3 {
+    font-size: 16px;
+  }
+
+  .google-description h4 {
+    font-size: 14px;
   }
 }
 
@@ -1293,7 +1337,21 @@ nav a {
   
   .portfolio-imgs {
     display: flex;
-    height: 60%;
+    height: 30%;
+  }
+}
+
+@media (max-width: 950px) {
+
+  .portfolio-title h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-imgs {
+    width: 90%;
+    height: 45%;
+    gap: 20px;
   }
 }
 
@@ -1409,6 +1467,28 @@ footer {
   .contact h2 {
     font-size: 30px;
     z-index: 2;
+  }
+}
+
+@media (max-width: 950px) {
+  .number h3 {
+    font-size: 14px;
+  }
+
+  .email h3 {
+    font-size: 14px;
+  }
+
+  .number p {
+    font-size: 12px;
+  }
+
+  .email p {
+    font-size: 12px;
+  }
+
+  .made-with-love-in-academlo h3 {
+    font-size: 14px;
   }
 }
 
