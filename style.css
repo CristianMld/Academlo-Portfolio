@@ -1361,9 +1361,11 @@ nav a {
   }
 
   .portfolio-imgs {
-    width: 90%;
-    height: 45%;
+    display: flex;
     gap: 20px;
+    justify-content: center;
+    height: 30%;
+    margin-top: 20px;
   }
 }
 
