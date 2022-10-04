@@ -1,4 +1,4 @@
-@media (orientation: landscape), (max-width: 950px) {
+@media (max-width: 950px) {
   
   nav {
     display: none;
