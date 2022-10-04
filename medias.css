@@ -57,9 +57,19 @@
     margin-top: 5%;
   }
 
-  .title h1 {
-    font-size: 50px;
+  .information {
+    gap: 10px;
   }
+
+  .information h1 {
+    font-size: 40px;
+  }
+
+  .information h2 {
+    font-size: 20px;
+  }
+
+
 }
 
 @media (max-width: 480px) {
