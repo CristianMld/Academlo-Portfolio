@@ -6,14 +6,6 @@
   --white-color: #FFFFFF;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-  font-family: 'Poppins', sans-serif;
-  color: var(--light-grey-color);
-}
-
 html {
   box-sizing: border-box;
 }
@@ -21,6 +13,11 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: var(--light-grey-color);
 }
 
 /*utilities*/
