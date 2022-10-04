@@ -1,52 +1,21 @@
-@media (max-width: 1300px) {
-  
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  nav a {
-    font-size: 14px;
-  }
-
-  .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    width: 100%;
-    height: 100vh;
-  }
-  
-  .information {
-    gap: 20px;
-    width: 50%;
-  }
-  
-  .information h1 {
-    font-size: 50px;
-  }
-  
-  .information h2 {
-    font-size: 18px;
-    z-index: 2;
-  }
-  
-  .vanessa {
-    display: flex;
-    width: 45%;
-  }
-}
-
+/* header */
 @media (max-width: 950px) {
   nav {
     display: none;
   }
 
+  .menu {
+    display: flex;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(350deg) brightness(103%) contrast(102%);
+    z-index: 5;
+  }
+
   .title {
     width: 70%;
-    height: 70vh;
+    height: 70%;
     margin-left: 15%;
     margin-top: 5%;
   }
@@ -62,8 +31,6 @@
   .information h2 {
     font-size: 20px;
   }
-
-
 }
 
 @media (max-width: 480px) {
@@ -139,28 +106,6 @@
 }
 
 /*main medias starts here*/
-
-@media (max-width: 1300px) {
-  .about-section {
-    height: 100vh;
-  }
-  
-  .about-title h2 {
-    font-size: 28px;
-  }
-  
-  .about-description p {
-    font-size: 12px;
-  }
-  
-  .uvm img {
-    width: 50%;
-  }
-  
-  .academlo img {
-    width: 50%;
-  }
-}
 
 @media (max-width: 950px) {
 
@@ -274,131 +219,6 @@
 }
 
 /* experience medias starts here */
-
-@media (max-width: 1300px) {
-  .experience {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    background-color: var(--dark-color);
-  }
-  
-  .experience-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 20%;
-  }
-  
-  .experience-title h2 {
-    font-size: 30px;
-    height: 20%;
-  }
-  
-  .experience-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 80%;
-    height: 80%;
-  }
-  
-  .amazon {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  .amazon-description {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-  
-  .amazon-description h3 {
-    font-size: 20px;
-  }
-
-  .amazon-description h4 {
-    font-size: 15px;
-  }
-
-  .amazon-description p {
-    font-size: 12px;
-  }
-  
-  .amazon-years h3 {
-    font-size: 15px;
-  }
-
-  .amazon img {
-    width: 40%;
-  }
-  
-  .airbnb {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  .airbnb-description {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-  
-  .airbnb-description h3 {
-    font-size: 20px;
-  }
-  
-  .airbnb h4 {
-    font-size: 15px;
-  }
-
-  .airbnb-description p {
-    font-size: 12px;
-  }
-
-  .airbnb-years h3 {
-    font-size: 15px;
-  }
-
-  .airbnb img {
-    width: 35%;
-  }
-  
-  .google {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  .google-description {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-  
-  .google-description h3 {
-    font-size: 20px;
-  }
-
-  .google-description h4 {
-    font-size: 15px;
-  }
-  
-  .google-description p {
-    font-size: 12px;
-  }
-
-  .google-years h3 {
-    font-size: 15px;
-  }
-
-  .google img {
-    width: 40%;
-  }
-}
 
 @media (max-width: 950px) {
   .amazon-description {
@@ -561,77 +381,6 @@
 }
 
 /* skills media starts here */
-
-@media (max-width: 1300px) {  
-  .skills-title h2 {
-    font-size: 30px;
-  }
-  
-  .mobile-app-design {
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-    height: 15%;    
-  }
-  
-  .mobile-app-design h1 {
-    font-size: 30px;
-  }
-  
-  .mobile-app-design h2 {
-    font-size: 18px;
-  }
-  
-  .motion-design {
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-    height: 15%;
-  }
-  
-  .motion-design h1 {
-    font-size: 30px;
-  }
-  
-  .motion-design h2 {
-    font-size: 18px;
-  }
-  
-  .system-design {
-    justify-content: flex-end;
-    gap: 20px;
-    width: 76%;
-    height: 15%;
-  }
-  
-  .system-design h1 {
-    font-size: 30px;
-  }
-  
-  .system-design h2 {
-    font-size: 18px;
-    width: 59%;
-  }
-  
-  .project-managment {
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-    height: 15%;
-  }
-  
-  .project-managment h1 {
-    font-size: 30px;
-  }
-  
-  .project-managment h2 {
-    font-size: 18px;
-  }
-
-  .vector-2 {
-    width: 40%;
-  }
-}
 
 @media (max-width: 950px) {
   .skills {
@@ -946,22 +695,6 @@
 }
 
 /* portfolio medias starts here */
-@media (max-width: 1300px) {
-  .portfolio {
-    height: 100vh;
-  }
-  
-  .portfolio-title h2 {
-    font-size: 30px;
-    height: 20%;
-  }
-  
-  .portfolio-imgs {
-    display: flex;
-    justify-content: center;
-    height: 30%;
-  }
-}
 
 @media (max-width: 950px) {
 
@@ -1014,14 +747,6 @@
 }
 
 /* footer medias starts here */
-
-@media (max-width: 1300px) {
-  .contact h2 {
-    font-size: 30px;
-    z-index: 2;
-  }
-}
-
 @media (max-width: 950px) {
   .number h3 {
     font-size: 14px;
