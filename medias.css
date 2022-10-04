@@ -41,18 +41,12 @@
 
 @media (max-width: 950px) {
   nav {
-    position: fixed;
-    margin: 0;
-    z-index: 5;
-  }
-
-  nav a {
-    font-size: 12px;
+    display: none;
   }
 
   .title {
     width: 70%;
-    height: 70%;
+    height: 70vh;
     margin-left: 15%;
     margin-top: 5%;
   }
