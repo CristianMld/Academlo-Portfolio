@@ -27,8 +27,7 @@
   }
 
   .mobile-header h1 {
-    display: flex;
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 25%;
     z-index: 1;
   }
@@ -37,14 +36,14 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 70%;
+    width: 60%;
     justify-content: center;
     align-items: flex-start;
     z-index: 1;
   }
 
   .mobile-header-description h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .mobile-social-media-icons {
@@ -91,7 +90,7 @@
   }
 
   .about-title h2 {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 50px;
   }
   
@@ -178,7 +177,7 @@
 
 @media (max-width: 480px) {
   .experience-title h2 {
-    font-size: 35px;
+    font-size: 30px;
     padding-top: 40px;
   }
   
@@ -336,7 +335,7 @@
   }
   
   .skills-title h2 {
-    font-size: 35px;
+    font-size: 30px;
     padding-top: 50px;
   }
   
@@ -353,7 +352,7 @@
   .mobile-app-design h1 {
     display: flex;
     width: 10%;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--gold-color);
   }
   
@@ -376,7 +375,7 @@
   .web-design h1 {
     display: flex;
     width: 10%;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--gold-color);
   }
   
@@ -399,7 +398,7 @@
   .motion-design h1 {
     display: flex;
     width: 10%;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--gold-color); 
   }
   
@@ -422,7 +421,7 @@
   .system-design h1 {
     display: flex;
     width: 10%;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--gold-color);
   }
   
@@ -445,7 +444,7 @@
   .project-managment h1 {
     display: flex;
     width: 10%;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--gold-color);
   }
   
@@ -477,7 +476,7 @@
   }
 
   .portfolio-title-mobile h2 {
-    font-size: 35px;
+    font-size: 30px;
     padding: 50px;
   }
 
@@ -519,7 +518,7 @@
   }
 
   .mobile-footer-title h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 40px;
     color: var(--white-color);
   }
