@@ -57,6 +57,14 @@ nav a {
   font-size: 20px;
 }
 
+nav a:hover {
+  color: var(--white-color);
+}
+
+nav a:first-child:hover {
+  color: #F1A600;
+}
+
 .title {
   display: flex;
   justify-content: center;
