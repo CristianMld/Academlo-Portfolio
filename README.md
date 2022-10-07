@@ -1,1 +1,1 @@
-https://cristianm.netlify.app/
+https://academlo-portfolio-cristianm.netlify.app/
